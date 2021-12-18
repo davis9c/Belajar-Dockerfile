@@ -2,15 +2,10 @@
 ```sh
 docker build --tag httpdimage:1.0 .
 ```
-
-
 # Create a Container
 ```sh
 docker container create --name httpdserv -p 80:80 httpdimage:1.0
 ```
-
-
-
 # Starting Container
 ```
 docker container start httpdserv
